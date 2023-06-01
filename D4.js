@@ -24,15 +24,13 @@ function area () {
  La funzione deve ritornare la somma dei due parametri, ma se il valore dei due parametri è il medesimo deve invece tornare
  la loro somma moltiplicata per tre.
 */
+const crazySum = function (n1,n2){
 
-function crazySum (n1,n2){
-    let total = n1 + n2
-    console.log ('total',total)
     if (n1 === n2){console.log('primo risultato')}
     else{ console.log('18')}
 
 }
-crazySum(2,4)
+crazySum(2,2)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -50,17 +48,11 @@ function crazyDiff (){
  Scrivi una funzione di nome "boundary" che accetta un numero intero n come parametro, e ritorna true se n è compreso tra 20 e 100 (incluso) oppure
  se n è uguale a 400.
 */
-function boundary (){
-    
-    let n1 =20
-    let n2 = 100
-    if(boundary > n1 && boundary < n2){console.log('true,true')}
-    else{console.log('errore')}
+const boundary = function (nx){
+    if (nx > 20 && nx <= 100 || nx === 400){console.log(true)}
     
 }
-boundary (40)
-
-
+boundary (400)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -69,6 +61,7 @@ boundary (40)
  La funzione deve aggiungere la parola "EPICODE" all'inizio della stringa fornita, ma se la stringa fornita comincia già con "EPICODE" allora deve
  ritornare la stringa originale senza alterarla.
 */
+
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
